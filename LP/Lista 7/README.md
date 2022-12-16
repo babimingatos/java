@@ -127,8 +127,7 @@ símbolos. O programa deve solicitar uma senha forte ao usuário até ele conseg
 que respeite esses critérios. Após cada senha digitada, apresentar as regras e se a senha
 passou pelos quesitos ou não.
 
-23)
-Elabore um programa para obter o nome completo de uma pessoa e a seguir forneça o
+23) Elabore um programa para obter o nome completo de uma pessoa e a seguir forneça o
 sobrenome do nome completo informado. Por exemplo, para o nome completo:
 Omero
 Francisco Bertol
