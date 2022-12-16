@@ -27,9 +27,9 @@ public class Ex_27 {
 		for (int i = 0; i < qtd; i++) {
 			for (int j = 0; j < qtd; j++) {
 				if (ah[i] != ai[j]) {
-					System.out.print("\nNão!");
+					System.out.print("\nNÃ£o!");
 				} else {
-					System.out.print("\nEstá contido! " + ah[0]);
+					System.out.print("\nEstÃ¡ contido! " + ah[0]);
 				}
 			}
 		}
