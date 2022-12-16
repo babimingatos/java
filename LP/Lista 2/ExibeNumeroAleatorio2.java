@@ -13,15 +13,15 @@ public class ExibeNumeroAleatorio2 {
 
 		/* Double */
 		Random random = new Random();
-		int numeroAleatorio = random.nextInt(100);
+		double numeroAleatorio = random.nextDouble();
 		System.out.println(numeroAleatorio);
 
 		
 		/* Estrutura For */
 		for (int i = 0; i < 1; i++) {
-			System.out.println(random.nextInt(100));
+			System.out.println(random.nextDouble()*100);
 		}
-		System.out.println("Barbara dos Santos Mingatos " + random);
+		System.out.println("Barbara dos Santos Mingatos ");
 		
 		// Barbara dos Santos Mingatos
 	}

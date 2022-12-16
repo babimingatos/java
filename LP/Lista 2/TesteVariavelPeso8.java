@@ -15,8 +15,10 @@ public class TesteVariavelPeso8 {
 		
 		System.out.printf("Digite seu peso: ");
 		double peso= sc.nextInt();
-
-		System.out.println(peso);
+		
+		System.out.printf("Printf: %f", peso);
+		
+		System.out.println("\nprintln: "+peso);
 		// Barbara dos Santos Mingatos
 	}
 }
