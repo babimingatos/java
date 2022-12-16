@@ -12,7 +12,7 @@ public class MaiorMedia22 {
 		double media = 0.0;
 		double soma=0.0;
 		for (int i = 1; i <= 2; i++) {
-			System.out.print("Digite o preço dos produtos: ");
+			System.out.print("Digite o preï¿½o dos produtos: ");
 			valor = sc.nextInt();
 			soma+=valor;
 			media = soma / 2;
@@ -21,7 +21,8 @@ public class MaiorMedia22 {
 				maior = valor;
 			}
 		}
-		System.out.print("Maior: " + maior + "\nMédia: " + media);
+		System.out.print("Maior: " + maior + "\nMï¿½dia: " + media);
 	}
+	//Barbara Mingatos
 
 }
