@@ -19,55 +19,40 @@ public class Ex_30 {
 			if (escolha == 3) {
 				System.out.print("Fim");
 			} else {
-
 				System.out.print("Digite uma frase: ");
-				String frase = scStr.nextLine();
+				String frase = scStr.nextLine().toLowerCase();
 
 				switch (escolha) {
 				case 1:
-					for (int f = 0; f < frase.length(); f++) {
-
-						if (frase.toLowerCase().charAt(f) >= 'a' && frase.toLowerCase().charAt(f) <= 'm') {
-
-							saida += (char) (frase.charAt(f) + 13);
-
+					for (int i = 0; i < frase.length(); i++) {
+						if (frase.charAt(i) >= 'a' && frase.charAt(i) <= 'm') {
+							saida += (char) (frase.charAt(i) + 13);
 						} else {
-
-							if (frase.toLowerCase().charAt(f) >= 'n' && frase.toLowerCase().charAt(f) <= 'z') {
-
-								saida += (char) (frase.charAt(f) - 13);
-
+							if (frase.charAt(i) >= 'n' && frase.charAt(i) <= 'z') {
+								saida += (char) (frase.charAt(i) - 13);
 							} else {
-
-								saida += frase.charAt(f);
+								saida += frase.charAt(i);
 							}
 						}
 					}
-
 					System.out.println("Saida: " + saida);
 					break;
 
 				case 2:
-					for (int f = 0; f < frase.length(); f++) {
-
-						if (frase.toLowerCase().charAt(f) >= 'a' && frase.toLowerCase().charAt(f) <= 'm') {
-
-							saida += (char) (frase.charAt(f) + 13);
-
+					for (int i = 0; i < frase.length(); i++) {
+						if (frase.charAt(i) >= 'a' && frase.charAt(i) <= 'm') {
+							saida += (char) (frase.charAt(i) + 13);
 						} else {
-
-							if (frase.toLowerCase().charAt(f) >= 'n' && frase.toLowerCase().charAt(f) <= 'z') {
-
-								saida += (char) (frase.charAt(f) - 13);
-
+							if (frase.charAt(i) >= 'n' && frase.charAt(i) <= 'z') {
+								saida += (char) (frase.charAt(i) - 13);
 							} else {
 
-								saida += frase.charAt(f);
+								saida += frase.charAt(i);
 							}
 						}
 					}
 
-					System.out.println("Saida: " + saida);
+					System.out.println(saida);
 					break;
 
 				case 3:
