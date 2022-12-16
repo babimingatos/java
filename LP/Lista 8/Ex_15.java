@@ -11,10 +11,10 @@ public class Ex_15 {
 
 		int n = 0;
 		int m = 0;
-		int aux = 0;
+		
 
 		do {
-			System.out.print("Digite a quantidade de elementos do vetor S: ");
+			System.out.print("Vetor S: ");
 			n = sc.nextInt();
 		} while (n > 10);
 
@@ -57,5 +57,4 @@ public class Ex_15 {
 			System.out.print(u[i] + " ");
 		}
 	}
-
 }

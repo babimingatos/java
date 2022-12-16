@@ -5,18 +5,17 @@ import java.util.Scanner;
 public class Ex_30 {
 
 	public static void main(String[] args) {
-
+//Barbara Mingatos
 		Scanner sc = new Scanner(System.in);
 
 		int tamanho = 0;
-		double temp;
+		double aux;
 
-		System.out.print("Entre com o tamanho do vetor: ");
+		System.out.print("Elementos: ");
 		tamanho = sc.nextInt();
 
 		double ak[] = new double[tamanho];
 
-		System.out.println("Entre com os elementos do vetor: ");
 		for (int i = 0; i < ak.length; i++) {
 
 			System.out.print("Vetor AK[" + i + "]: ");
@@ -26,9 +25,9 @@ public class Ex_30 {
 		for (int j = 0; j < ak.length - 1; j++) {
 			for (int i = 0; i < ak.length - 1 - j; i++) {
 				if (ak[i] > ak[i + 1]) {
-					temp = ak[i];
+					aux = ak[i];
 					ak[i] = ak[i + 1];
-					ak[i + 1] = temp;
+					ak[i + 1] = aux;
 				}
 			}
 		}
@@ -38,7 +37,7 @@ public class Ex_30 {
 			System.out.print(ak[i] + " ");
 		}
 
-		double[] al = new double[2 * tamanho - 1];
+		double[] al = new double[tamanho * 2 - 1];
 
 		for (int i = 0, j = 0; i < al.length; i += 2, j++) {
 			al[i] = ak[j];

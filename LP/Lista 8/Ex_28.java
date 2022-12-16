@@ -16,12 +16,11 @@ public class Ex_28 {
 		int[] ah = new int[qtd];
 
 		for (int i = 0; i < qtd; i++) {
-			System.out.print("Digite o termo " + (1 + i) + " (AH): ");
+			System.out.print("Digite o termo do vetor AH: ");
 			ah[i] = sc.nextInt();
-
 		}
 		for (int i = 0; i < 3; i++) {
-			System.out.print("Digite o termo " + (1 + i) + " (AI): ");
+			System.out.print("Digite o termo do vetor AI: ");
 			ai[i] = sc.nextInt();
 		}
 		for (int i = 0; i < qtd; i++) {
@@ -29,7 +28,7 @@ public class Ex_28 {
 				if (ah[i] != ai[j]) {
 					System.out.print("\nNão!");
 				} else {
-					System.out.print("\nEstá contido! " + ah[0]);
+					System.out.print("\nEstá contido! ");
 				}
 			}
 		}

@@ -12,7 +12,7 @@ public class Ex_22 {
 		int qtd = 0;
 
 		do {
-			System.out.print("Digite a quantidade de posições: ");
+			System.out.print("Digite a quantidade: ");
 			qtd = sc.nextInt();
 		} while (qtd > 10);
 

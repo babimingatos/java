@@ -20,11 +20,12 @@ public class Ex_03 {
 
 				System.out.print("Digite os números: ");
 				vet[i] = sc.nextInt();
-
 			}
+			
 			for (int i = 0; i < vet.length; i++) {
 				System.out.print(vet[i] + " ");
 			}
+			
 		} else {
 			System.out.print("Digite outro número: ");
 			elementos = sc.nextInt();
