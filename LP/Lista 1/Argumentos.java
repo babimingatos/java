@@ -1,14 +1,21 @@
 package Lista1;
 
 public class Argumentos {
-	public static void main(String args[]) {
-		
+	public static void main(String[] args) {
+
 		/* Barbara dos Santos Mingatos */
 		/*
-		 * Crie um programa utilizando a linguagem de programação Java. Esse programa
-		 * deve exibir os dois primeiros argumentos de linha de comando. O código fonte
-		 * desse programa deve ser armazenado em um arquivo chamado Argumentos.java.
+		 * Crie um programa utilizando a linguagem de programaï¿½ï¿½o Java. Esse
+		 * programa deve exibir os dois primeiros argumentos de linha de comando. O
+		 * cï¿½digo fonte desse programa deve ser armazenado em um arquivo chamado
+		 * Argumentos.java.
 		 */
+		
+	
+				System.out.println(args[0]);
+				System.out.println(args[1]);
+			}
+		
 
-	}
+	
 }
