@@ -4,7 +4,7 @@ Os exercícios utilizam: Desvio condicional (if/else) e estruturas de escolha (s
 
 ## Questões
 
-1 ) Escreva um programa em Java para ler um valor e escrever a mensagem “ É MAIOR QUE 10! ” se o valor lido for maior que 10, caso contrário escrever “NÃO É MAIOR QUE 10! ” .
+1) Escreva um programa em Java para ler um valor e escrever a mensagem “ É MAIOR QUE 10! ” se o valor lido for maior que 10, caso contrário escrever “NÃO É MAIOR QUE 10! ” .
 
 2) Escreva um programa em Java para ler um valor e escrever se é positivo ou negativo (considere o valor zero como positivo ). 
 		  
