@@ -17,7 +17,7 @@ public class Ex_08 {
 		for (char letras = 'A'; letras < 'Z'; letras++) {
 			cont = 0;
 			for (int lfrase = 0; lfrase < frase.length(); lfrase++) {
-				if (frase.charAt(lfrase) ==letras) {
+				if (frase.charAt(lfrase) == letras) {
 					cont++;
 				}
 			}

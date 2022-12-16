@@ -8,7 +8,10 @@ public class Ex_27 {
 		// Barbara Mingatos
 
 		Scanner sc = new Scanner(System.in);
-
+		char primc = 0;
+		char segc = 0;
+		StringBuilder frases = new StringBuilder();
+		
 		System.out.print("Digite uma palavra: ");
 		String prim = sc.nextLine();
 		System.out.print("Digite outra: ");
@@ -23,18 +26,16 @@ public class Ex_27 {
 
 			}
 		}
-		char primc = 0;
-		char segc = 0;
 
 		if (msm == false) {
 			System.out.print("Tamanho diferente");
 		} else {
 			for (char a = 0; a < prim.length(); a++) {
-				primc = (char) prim.charAt(a);
-				segc = (char) seg.charAt(a);
-				System.out.printf("%c%c", primc, segc);
-			}
+				frases.append(prim.charAt(a));
+				frases.append(seg.charAt(a));
 
+			}
+			System.out.println(frases);
 		}
 
 	}
