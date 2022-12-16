@@ -24,9 +24,9 @@ public class ADivisivelPorB6 {
 		System.out.println("Digite um valor até 20: ");
 		int b = sc.nextInt();
 
-		if (a > b || a==b) {
+		if (a >= b) {
 			if (a % b == 0) {
-				System.out.println("É divisivel. " + a% b);
+				System.out.println("É divisivel. ");
 			}
 		}
 		if (a < 1 || b < 1) {
