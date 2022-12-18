@@ -2,8 +2,6 @@
 # Calculadora com interface gráfica e checkbox
 
 
-
-
 Calculadora utilizando a linguagem de programação Java.
 
 ## Imagem do projeto
