@@ -1,4 +1,4 @@
-# Lista de exercícios 0
+# Lista de exercícios 00
 Os exercícios utilizam: Matrizes
 
 ## Questões
