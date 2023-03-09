@@ -9,7 +9,7 @@ Os exercícios utilizam: Matrizes
 3) Escreva um programa em Java para
 ler uma matriz C quadrada de dimensão N,
 onde N é menor ou igual a 20 e imprimir seus elementos. O usuário deve informar o
-número o tamanho da matriz quadrada (dimensão) e os elementos podem ser gerados
+número do tamanho da matriz quadrada (dimensão) e os elementos podem ser gerados
 aleatoriamente (menor que 100).
 
 4) Escreva um programa em Java para
