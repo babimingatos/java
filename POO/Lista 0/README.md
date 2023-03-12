@@ -1,5 +1,5 @@
 # Lista de exercícios 00
-Os exercícios utilizam: Matrizes
+Os exercícios exploram mais sobre matrizes!
 
 ## Questões
 1) Escreva um programa em Java para ler uma matriz A de 4 linhas por 5 colunas e imprimir seus elementos.
