@@ -6,3 +6,7 @@
   Contém 32 exercícios com matrizes.
 </html>
 
+## [Lista 1- Métodos](https://github.com/babimingatos/java/tree/main/POO/Lista%201)
+<html>                
+  Contém 5 exercícios que utilizam métodos.
+</html>
