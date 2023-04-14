@@ -87,8 +87,7 @@ public class Teste {
 					if ((tempoChegada[i] <= sistempo) // verifica se o processo já chegou na fila de execução
 							&& (completoounao[i] == 0) // verifica se o processo ainda não foi executado
 							&& (tempoUCP[i] < min)) {// verifica se o T.E restante do processo atual é menor do que o
-														// T.E
-														// restante do processo com o menor T.E atual
+										// T.E restante do processo com o menor T.E atual
 						min = tempoUCP[i]; // Armazena T.E restante
 						c = i; // Armazena o indice do processo
 					}
