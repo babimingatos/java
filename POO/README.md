@@ -11,12 +11,12 @@
   Contém 5 exercícios que utilizam métodos.
 </html>
 
-## [Lista 1- Métodos (Parte 2)](https://github.com/babimingatos/java/tree/main/POO/Lista%201)
+## [Lista 1- Métodos (Parte 2)](https://github.com/babimingatos/java/tree/main/POO/Lista%202)
 <html>                
-  Contém 5 exercícios que utilizam métodos.
+  Contém 8 exercícios que utilizam métodos.
 </html>
 
-## [Lista 1- Métodos (Parte 3)](https://github.com/babimingatos/java/tree/main/POO/Lista%201)
+## [Lista 1- Métodos (Parte 3)](https://github.com/babimingatos/java/tree/main/POO/Lista%203)
 <html>                
-  Contém 5 exercícios que utilizam métodos.
+  Contém 14 exercícios que utilizam métodos.
 </html>
