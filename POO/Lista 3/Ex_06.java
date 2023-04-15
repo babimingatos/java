@@ -4,37 +4,35 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Ex_06 {
-
 	// Barbara Mingatos
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 
-		System.out.print("Digite o primeiro nÃºmero: ");
-		int um = sc.nextInt();
+		System.out.print("Digite o primeiro número: ");
+		int num1 = sc.nextInt();
 
-		System.out.print("Digite o segundo nÃºmero: ");
-		int dois = sc.nextInt();
+		System.out.print("Digite o segundo número: ");
+		int num2 = sc.nextInt();
 
-		int[] primos = encontrar(um, dois);
-
-		System.out.println("Primos entre " + um + " e " + dois + ": ");
-
+		int[] primos = encontrarPrimos(num1, num2);
+	
 		for (int primo : primos) {
 			System.out.print(primo + " ");
 		}
 	}
 
-	static int[] encontrar(int um, int dois) {
-		if (um > dois) {
-			int temp = um;
-			um = dois;
-			dois = temp;
+	static int[] encontrarPrimos(int num1, int num2) {
+		if (num1 > num2) {
+			int temp = num1;
+			num1 = num2;
+			num2 = temp;
 		}
 
 		ArrayList<Integer> primos = new ArrayList<Integer>();
-		for (int i = um; i <= dois; i++) {
-			if (ePrimo(i)) {
+		
+		for (int i = num1; i <= num2; i++) {
+			if (primo(i)) {
 				primos.add(i);
 			}
 		}
@@ -46,7 +44,7 @@ public class Ex_06 {
 		return resultado;
 	}
 
-	static boolean ePrimo(int num) {
+	static boolean primo(int num) {
 		if (num <= 1) {
 			return false;
 		}

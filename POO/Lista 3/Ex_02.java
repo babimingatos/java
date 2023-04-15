@@ -9,7 +9,7 @@ public class Ex_02 {
 		Scanner sci = new Scanner(System.in);
 		Scanner sc = new Scanner(System.in);
 
-		System.out.print("A temperatura vocÃª quer descobrir: Celsius ou Fahrenheit?: ");
+		System.out.print("A temperatura você quer descobrir: Celsius ou Fahrenheit?: ");
 		String escolha = sci.nextLine().toUpperCase();
 
 		if (escolha.charAt(0) == 'F') {

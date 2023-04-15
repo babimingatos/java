@@ -29,7 +29,7 @@ public class Ex_04 {
 		double menor = Math.min(Math.min(um, dois), tres);
 		double aritmetica = (um + dois + tres) / 3;
 
-		System.out.print("\nMÃ©dia maiores: " + notas(um, dois, tres) + "\nMÃ©dia aritmÃ©tica: " + aritmetica
+		System.out.print("\nMédia maiores: " + notas(um, dois, tres) + "\nMédia aritmética: " + aritmetica
 				+ "\nMaior nota: " + maior + "\nMenor nota: " + menor);
 	}
 
