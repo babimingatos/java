@@ -22,17 +22,18 @@ public class Teste {
 			int tempoTurnaround = 0;
 
 			ArrayList<Integer[]> listaprocesso = new ArrayList<>(); // Cada array é um processo
-
-			System.out.println("Digite o tempo de chegada e o tempo de execução de cada processo:");
-
+			
 			for (int i = 0; i < numprocessos; i++) {
 				Integer[] processos = new Integer[3];
+				System.out.println("Digite o tempo de chegada:");
 				processos[0] = i + 1;// Num processo
 				processos[1] = sc.nextInt();// Chegada
+				
+				System.out.println("Digite o tempo de execução:");
 				processos[2] = sc.nextInt(); // Execução
 				listaprocesso.add(processos);
 			}
-
+			
 			Collections.sort(listaprocesso, Comparator.comparingInt(p -> p[1]));
 			// Ordena a lista de processos com base no tempo de chegada
 
@@ -87,7 +88,8 @@ public class Teste {
 					if ((tempoChegada[i] <= sistempo) // verifica se o processo já chegou na fila de execução
 							&& (completoounao[i] == 0) // verifica se o processo ainda não foi executado
 							&& (tempoUCP[i] < min)) {// verifica se o T.E restante do processo atual é menor do que o
-										// T.E restante do processo com o menor T.E atual
+														// T.E
+														// restante do processo com o menor T.E atual
 						min = tempoUCP[i]; // Armazena T.E restante
 						c = i; // Armazena o indice do processo
 					}
