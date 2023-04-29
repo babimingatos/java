@@ -3,37 +3,36 @@ package Lista1;
 public @interface DezAteOVinte {
 
 	/*Barbara dos Santos Mingatos
-	
-	 
-	 10 - Qual alternativa possui apenas nomes v·lidos para arquivos de cÛdigo fonte Java?
+
+	 10 - Qual alternativa possui apenas nomes v√°lidos para arquivos de c√≥digo fonte Java?
 			a. Fatec.java e Treinamentos.java. CORRETA
 			b. fatec.java e Treinamentos.Java.
 			c. Fatec.JAVA e Treinamentos.java.
 			d. FATEC.JAVA e Treinamentos.JAVA.
 			e. Fatec.Java e Treinamentos.Java.
 			
-	11 - Qual È o comando utilizado para executar o compilador da linguagem Java?
+	11 - Qual √© o comando utilizado para executar o compilador da linguagem Java?
 			a. JavaC
 			b. javac CORRETA
 			c. java-compiler
 			d. java
 			e. jc		
 			
-	12 - Qual È o comando utilizado para executar um programa Java?
+	12 - Qual √© o comando utilizado para executar um programa Java?
 			a. javac CORRETA
 			b. JAVA
 			c. java
 			d. java-run
 			e. jvm		
 			
-	13 - Qual È a extens„o dos arquivos que armazenam cÛdigo compilado de um programa Java?
+	13 - Qual √© a extens√£o dos arquivos que armazenam c√≥digo compilado de um programa Java?
 			a. .java CORRETA
 			b. .class
 			c. .exe
 			d. .prog
 			e. .sh		
 
-	14 - Ao compilar o arquivo Programa.java, quantos arquivos com a extens„o .class ser„o gerados?
+	14 - Ao compilar o arquivo Programa.java, quantos arquivos com a extens√£o .class ser√£o gerados?
 	
 	class Maria {
 		public static void main(String[] args) {
@@ -54,38 +53,38 @@ public @interface DezAteOVinte {
 			a. Nenhum
 			b. Um
 			c. Dois
-			d. TrÍs CORRETO
+			d. Tr√™s CORRETO
 			e. Quatro	
 			
-	15 - Para verificar a vers„o do compilador Java ou do ambiente de execuÁ„o Java, qual opÁ„o
+	15 - Para verificar a vers√£o do compilador Java ou do ambiente de execu√ß√£o Java, qual op√ß√£o
 		 podemos utilizar ao executar os comandos javac ou java?
 			a. -version CORRETO
 			b. -v
 			c. -ver
 			d. -versao
 			
-	16 - Qual alternativa declara corretamente o mÈtodo main?
+	16 - Qual alternativa declara corretamente o m√©todo main?
 			a. public static main(String[] args)
 			b. public static void Main(String[] args)
 			c. void main(String[] args)
 			d. static void Main()
 			e. public static void main(String[] args)	CORRETO		
 			
-	17 - Qual cÛdigo pode ser utilizado para exibir a mensagem Fatec em Java?
+	17 - Qual c√≥digo pode ser utilizado para exibir a mensagem Fatec em Java?
 			a. system.out.println("Fatec ")
 			b. System.out.println("Fatec ") CORRETO
 		    c. System.Console.WriteLine("Fatec ")
 			d. system.console.writeLine("Fatec ")
 			e. print("Fatec ")	
 			
-	18 - Qual sequÍncia de escape indica uma "quebra de linha"?
+	18 - Qual sequ√™ncia de escape indica uma "quebra de linha"?
 			a. \n CORRETO
 			b. \r
 			c. \f
 			d. \t
 			e. \b		
 			
-	19 - Quais s„o os marcadores utilizados para inserir coment·rios nos programas em Java?
+	19 - Quais s√£o os marcadores utilizados para inserir coment√°rios nos programas em Java?
 			a. // e %
 			b. #, //, /* e */
 //	        c. //, /* e */ CORRETO
@@ -101,7 +100,7 @@ public @interface DezAteOVinte {
 		}
 	}
 
-	O que seria exibido na saÌda padr„o se a classe Argumentos fosse executada com o seguinte
+	O que seria exibido na sa√≠da padr√£o se a classe Argumentos fosse executada com o seguinte
 	comando?
 	java Argumentos Fatec Livros
 	
