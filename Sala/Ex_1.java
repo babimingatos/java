@@ -12,6 +12,4 @@ public class MyClass {
     static void somaMais3 (int numero) {
         num=numero+=3; 
     }
-    
-    
 }
