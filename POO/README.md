@@ -16,7 +16,14 @@
   Contém 8 exercícios que utilizam métodos.
 </html>
 
-## [Lista 1- Métodos (Parte 3)](https://github.com/babimingatos/java/tree/main/POO/Lista%203)
+
+## [Lista 4- Get, set](https://github.com/babimingatos/java/tree/main/POO/Lista%204)
 <html>                
-  Contém 14 exercícios que utilizam métodos.
+ https://github.com/babimingatos/java/tree/main/POO/Lista%204
+</html>
+
+
+## [Lista 5- ](https://github.com/babimingatos/java/tree/main/POO/Lista%205)
+<html>                
+  
 </html>
