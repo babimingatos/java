@@ -19,7 +19,7 @@
 
 ## [Lista 4- Get, set](https://github.com/babimingatos/java/tree/main/POO/Lista%204)
 <html>                
- https://github.com/babimingatos/java/tree/main/POO/Lista%204
+
 </html>
 
 
