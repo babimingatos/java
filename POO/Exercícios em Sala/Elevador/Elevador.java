@@ -1,8 +1,0 @@
-- Contar quantos andares tem
-- Qauntas pessoas entram e qual periodo ela entrou e saiu
-- Quantas pessoas saem e qual periodo ela entrou e saiu
-- Contar máximo de pessoas
-- Com 0 pessoas ele para, não movimenta
-- construtor q faz para o predio ir para o subterraneo
-- inferior é zero
-- 
