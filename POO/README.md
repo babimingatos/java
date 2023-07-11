@@ -16,14 +16,22 @@
   Contém 8 exercícios que utilizam métodos.
 </html>
 
-
-## [Lista 4- Get, set](https://github.com/babimingatos/java/tree/main/POO/Lista%204)
+## [Lista 1- Métodos (Parte 3)]https://github.com/babimingatos/java/tree/main/POO/Lista%203)
 <html>                
-
+  Contém 14 exercícios que utilizam métodos.
 </html>
 
-
-## [Lista 5- ](https://github.com/babimingatos/java/tree/main/POO/Lista%205)
+## [Lista 2- POO](https://github.com/babimingatos/java/tree/main/POO/Lista%204)
 <html>                
-  
+  Contém 8 exercícios que utilizam POO.
+</html>
+
+## [Lista 3- POO e Diagramas](https://github.com/babimingatos/java/tree/main/POO/Lista%205)
+<html>                
+  Contém 8 exercícios que utilizam POO e visão através de diagrama de classes.
+</html>
+
+## [Lista 4- Polimorfismo](https://github.com/babimingatos/java/tree/main/POO/Lista%206)
+<html>                
+  Contém 8 exercícios que utilizam Polimorfismo.
 </html>
