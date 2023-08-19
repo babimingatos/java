@@ -1,61 +1,89 @@
 import java.util.Scanner;
+import java.util.Arrays;
 
 public class Revisao01 {
 	
 	public static void main (String[] args) {
 		
-		Scanner sc = new Scanner(System.in);
+		Scanner leia = new Scanner ( System.in );
+		//new: nova instancia de
+		Object teste = new Object();
 		
-			//new: nova instancia de
-		int [] vetor = new int [10];	
+		Oi[] vetor = new Oi[10];
 		
-		Object teste=new Object ();
-		System.out.print(teste);
+		System.out.println ( teste + "\n\n" );
 		
 			//objeto.atributo
 			//vetor.length
 		
-		for (int i = 1; i < vetor.length; i++){
-			System.out.println( vetor[i] );
+		for ( int i = 0 ; i < vetor.length ; i++ ) {
+			
+			vetor[i] = new Oi();
+			
+			System.out.print ( vetor[i] + " " );
 		}
+		System.out.println("\n");
 		
-		System.out.print("\n");
-		
-		//for each
-		//precisa de uma variavel de mesmo tipo ou que caiba
-		//elemento passa por cada uma das partes do vetor
+		// for each precisa de uma variavel de mesmo tipo ou que caiba
+		// elemento passa por cada uma das partes do vetor
 		// iteração do vetor todo, não manipula posição
 		
-		for ( double elemento : vetor ){
-			//elemento++;
-			System.out.println( elemento );
+		for ( Oi elemento : vetor ) {
+			elemento.texto = elemento.texto.toUpperCase();
+			System.out.print ( elemento + " " );
 		}
 		
-		Oi[]veto=new Oi[10];
+		System.out.println("\n");
 		
-		for (int i = 0; i < veto.length; i++){
-			System.out.println( veto[i] );
+		for ( int i = 0 ; i < vetor.length ; i++ ) {
+			System.out.print ( vetor[i] + " " );
 		}
+		System.out.println("\n");
 		
-		for ( Oi elemento : veto){
-			elemento.texto=elemento.texto.toUpperCase();
-			System.out.println( "\n\n"+elemento );
+		int i = 0;
+		
+		while ( i < vetor.length ) {
+			System.out.print ( vetor[i] + " " );
+			i++;
 		}
+		System.out.println("\n");
+
+		i = 0;
+		
+		while ( i < vetor.length ) {
+			System.out.print ( vetor[i++] + " " );
+		}
+		System.out.println("\n");
+		
+		i = 0;
+		
+		do {
+			System.out.print ( vetor[i++] + " " );
+		} while ( i < vetor.length );
+		
+		System.out.println("\n");
+		System.out.println ("Zezen".toUpperCase());
+		String nome = "Zezen";
+		String nome2 = new String();
+		int[] numeros = { 2, 5, 7, 2, 4, 5 };
+		Oi[] oies = { new Oi(), new Oi("Zezen"),new Oi("Outra coisa")};
+		System.out.println ( Arrays.toString ( oies ) );
 	}
 }
 
-
-
-public class Oi {
-	
+class Oi {
 	public String texto;
 	
-	public Oi(){ //construtor
-		texto="a";
+	public Oi () { //construtor
+		texto = "a";
 	}
+	
+	public Oi ( String texto ) {
+		this.texto = texto;
+	}
+	
 	@Override
-	public String toString(){
+	public String toString() {
 		return texto;
 	}
-
-
+}
