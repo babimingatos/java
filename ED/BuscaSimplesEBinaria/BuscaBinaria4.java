@@ -9,7 +9,7 @@ public class BuscaBinaria4 {
 		// dados ordenados
 		// sem elementos duplicados
 		
-		int tamanho=100000;
+		int tamanho=10;
 		int[] exercito = new int [tamanho];
 		
 		for(int atual=0;atual<exercito.length;atual++){
@@ -18,11 +18,11 @@ public class BuscaBinaria4 {
 		
 		imprime ( exercito );
 		
-		int busca = 99999;
+		int busca =-99999;
 		
 		contador = 0;
 		
-		int posicao = buscaSimples ( exercito, 0, exercito.length, busca );
+		int posicao = recursao ( exercito, 0, exercito.length, busca );
 		
 		if ( posicao == -1 ) {
 			
@@ -41,7 +41,7 @@ public class BuscaBinaria4 {
 		
 		contador = 0;
 		
-		posicao = buscaBinaria ( exercito, 0, exercito.length, busca );
+		posicao = recursao  ( exercito, 0, exercito.length, busca );
 		
 		if ( posicao == -1 ) {
 			
@@ -57,13 +57,14 @@ public class BuscaBinaria4 {
 		
 		System.out.println(">>> Contador: " + contador );
 	}
-	
-	static int buscaBinaria ( int[] vetor, int inicio, int termino, int busca) {
-		
-		while ( termino - inicio > 0 ) {
+
+	//recursão nao tem laço
+	static int recursao ( int[] vetor, int inicio, int termino, int busca) {
+		// fazer o caso base caso dê stack overflow
+		if ( termino - inicio <1 ) {
+			return -1;
 			
-			contador++;
-			
+		}contador++;
 			int meio = ( inicio + termino ) / 2;
 			
 			if ( vetor[meio] == busca ) {
@@ -73,17 +74,17 @@ public class BuscaBinaria4 {
 			} else {
 				
 				if ( vetor[meio] < busca ) {
+					inicio=meio+1;
+					return recursao (vetor,inicio,termino,busca);
 					
-					inicio = meio + 1;
+				} else {termino = meio;
+					return recursao (vetor,inicio,termino,busca);
 					
-				} else {
-					
-					termino = meio;
 				}
-			}
+			//}
 		}
 		
-		return -1;
+		
 	}
 	
 	static int buscaSimples ( int[] vetor, int inicio, int termino, int busca ) {
